@@ -14,4 +14,4 @@ NO_HOST_RELEASE_CHECK=yes
 DELIM
 
 cd RISCVbian
-./compile.sh cli
+./compile.sh desktop-full
