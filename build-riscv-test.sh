@@ -38,7 +38,7 @@ USE_GITHUB_UBOOT_MIRROR=yes
 NO_APT_CACHER=NO
 #BETA=no                                # Beta needed for Beta kernels
 SKIP_EXTERNAL_TOOLCHAINS=no             # Disable the pull of External_toolschains
-#SUBREVISION=                           # add custom name on to file
+
 EXPERT=yes                             # EXPERT needed for building CSC Boards/Desktops
 BOARD=starfive                          # Board= starfive / nezha.
 RELEASE=jammy                             # Release=sid or jammy
