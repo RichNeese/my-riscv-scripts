@@ -11,7 +11,6 @@ cat > build/userpatches/config-desktop-riscv.conf << DELIM
 # Read build script documentation https://docs.armbian.com/Developer-Guide_Build-Options/
 # for detailed explanation of these options and for additional options not listed here
 
-KERNEL_ONLY="NO"                        # leave empty to select each time, set to "yes" or "no" to skip dialog prompt
 KERNEL_CONFIGURE="NO"                   # leave empty to select each time, set to "yes" or "no" to skip dialog prompt
 CLEAN_LEVEL="make,debs"                 # comma-separated list of clean targets: "make" = make clean for selected kernel and u-boot,
                                         # "debs" = delete packages in "./output/debs" for current branch and family,
@@ -42,7 +41,7 @@ SKIP_EXTERNAL_TOOLCHAINS=no             # Disable the pull of External_toolschai
 #SUBREVISION=                           # add custom name on to file
 EXPERT=yes                             # EXPERT needed for building CSC Boards/Desktops
 BOARD=starfive                          # Board= starfive / nezha.
-RELEASE=sid                             # Release=sid or jammy
+RELEASE=jammy                             # Release=sid or jammy
 BRANCH=current                          # BRANCH=current
 BUILD_DESKTOP=yes                       # Comment out or change yes to no to build cli
 
