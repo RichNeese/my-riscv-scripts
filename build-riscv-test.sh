@@ -51,7 +51,7 @@ BUILD_DESKTOP=yes                       # Comment out or change yes to no to bui
 
 DESKTOP_ENVIRONMENT_CONFIG_NAME=config_base # options config_base more to come
 
-DESKTOP_APPGROUPS_SELECTED="3d-mesa accessabilty app-launcher archivers desktop_tools development disk-tools editors file-share fonts graphics internet multimedia net-tools office pkg-tools printing remote_desktop shells system-info-tools terminals webdev"
+DESKTOP_APPGROUPS_SELECTED="3d-mesa accessabilty app-launcher archivers desktop_tools development disk-tools editors file-share fonts graphics internet multimedia net-tools office pkg-tools printing remote_desktop shells system-info-tools terminals web-dev"
 DELIM
 
 cd build
